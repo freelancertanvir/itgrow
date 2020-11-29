@@ -1,0 +1,7 @@
+create table currency(
+	NumCode varchar(10),
+	CharCode varchar(10) primary key,
+	c_name varchar(100),
+	c_value float(20),
+	c_date Date
+)
